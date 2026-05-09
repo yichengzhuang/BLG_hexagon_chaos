@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# SLURM job logs
+slurm-*.out
+slurm-*.err
+
+# Auto-generated outputs from the scripts
+EIGENSTATES/results_BLG_Hex_buffer/
+LEVEL_STATISTIC/results_BLG_Hex_filterr/
+
+# Bulky example data that lives outside the repo
+# (RAY_DYNAMICS keeps a small set of demo figures; EIGENSTATES and
+#  LEVEL_STATISTIC results are not shipped via GitHub.)
+RAY_DYNAMICS/result_example/fourband/*/reflect_table*.npz
+RAY_DYNAMICS/result_example/poincare_*/poincare_points_fourband.npz
+RAY_DYNAMICS/result_example/poincare_*/hits_abs_xy.*
+EIGENSTATES/result_example/
+LEVEL_STATISTIC/result_example/
